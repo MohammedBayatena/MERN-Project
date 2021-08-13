@@ -14,6 +14,7 @@ import NativeSelect from "@material-ui/core/NativeSelect";
 import Radio from "@material-ui/core/Radio";
 import RadioGroup from "@material-ui/core/RadioGroup";
 import FormControlLabel from "@material-ui/core/FormControlLabel";
+import Title from "../dashboard/Title";
 
 
 const useStyles = makeStyles((theme) => ({
@@ -80,7 +81,7 @@ const AddTransaction = () => {
     return (
 
         <React.Fragment>
-            <h3>Add New Transaction</h3>
+            <Title>Add New Transaction</Title>
             <form onSubmit={onSubmit}>
                 <div className="form-control">
                     <label htmlFor="text">Transaction Name</label>
